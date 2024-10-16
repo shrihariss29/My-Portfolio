@@ -1,4 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 function About() {
   return (
     <div className="about">
@@ -52,14 +52,11 @@ function About() {
         <div className="clubcontent">
           <h2>Daksh</h2>
           <h6>
-            I served as one of the organizers responsible for promotions and
-            outreach for our university's technical fest, Daksh. Through this
-            experience, I gained valuable insights into event promotion and
-            learned how to collaborate effectively within a large team. In the
-            process, I also encountered and navigated various dynamics such as
-            teamwork, internal politics, and organizational challenges, all of
-            which were instrumental in successfully executing a large-scale
-            event.
+            I was an organizer for promotions and outreach in our university's
+            tech fest, Daksh. This role gave me valuable experience in event
+            promotion, teamwork, and navigating internal dynamics like politics
+            and organizational challenges, all of which were key to executing a
+            successful large-scale event.
           </h6>
         </div>
       </div>
@@ -68,13 +65,11 @@ function About() {
         <div className="clubcontent">
           <h2>Sastra Tamizh Sangam</h2>
           <h6>
-            I was a performer in Sastra Tamizh Sangam and now serve as an
-            organizer. I’ve had the privilege of performing on numerous stages,
-            representing both the club and the university. Beyond my involvement
-            in technical and management clubs, this is a place that holds a
-            special spot in my heart, allowing me to express my artistic side.
-            It’s been a deeply fulfilling experience, filled with memories that
-            I will cherish for a lifetime.
+            I started as a performer in Sastra Tamizh Sangam and now serve as an
+            organizer. I’ve performed on various stages, representing the club
+            and university. This club holds a special place in my heart,
+            allowing me to express my artistic side. It’s been a fulfilling
+            experience filled with cherished memories.
           </h6>
         </div>
       </div>
@@ -83,34 +78,52 @@ function About() {
         <div className="clubcontent">
           <h2>Entrepreneurship cell</h2>
           <h6>
-            I was part of my university’s Entrepreneurship Cell, organizing
-            several events with a small but dedicated team. The experience was
-            challenging yet rewarding. I worked in two key areas: event design,
-            focused on planning and execution, and social media management,
-            handling promotions. These roles gave me unique insights into both
-            creative and strategic event management. Overall, it was a valuable
-            experience that enhanced my organizational and teamwork skills.
+            I participated in my university's Entrepreneurship Cell, organizing
+            various events with a dedicated team. This rewarding experience
+            involved event design and social media management, providing
+            valuable insights into creative and strategic event management while
+            enhancing my organizational and teamwork skills.
           </h6>
         </div>
       </div>
       <div>
-      <Carousel controls={false} interval={3000}>
+        <Carousel controls={false} interval={3000}>
           <Carousel.Item>
-            <img src={require(`../assets/pic1.jpg`)} alt={`My pic1 in navbar`} loading="lazy" />
+            <img
+              src={require(`../assets/pic1.jpg`)}
+              alt={`My pic1 in navbar`}
+              loading="lazy"
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <img src={require(`../assets/pic2.jpg`)} alt={`My pic2 in navbar`} loading="lazy" />
+            <img
+              src={require(`../assets/pic2.jpg`)}
+              alt={`My pic2 in navbar`}
+              loading="lazy"
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <img src={require(`../assets/pic3.jpg`)} alt={`My pic3 in navbar`} loading="lazy" />
+            <img
+              src={require(`../assets/pic3.jpg`)}
+              alt={`My pic3 in navbar`}
+              loading="lazy"
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <img src={require(`../assets/pic4.jpg`)} alt={`My pic4 in navbar`} loading="lazy" />
+            <img
+              src={require(`../assets/pic4.jpg`)}
+              alt={`My pic4 in navbar`}
+              loading="lazy"
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <img src={require(`../assets/pic5.jpg`)} alt={`My pic5 in navbar`} loading="lazy" />
+            <img
+              src={require(`../assets/pic5.jpg`)}
+              alt={`My pic5 in navbar`}
+              loading="lazy"
+            />
           </Carousel.Item>
-      </Carousel>
+        </Carousel>
       </div>
     </div>
   );
