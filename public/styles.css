@@ -188,7 +188,7 @@ table
 .projectcontent h6{
   margin-left: 5%;
   text-align: justify;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   font-family: "Kanit", sans-serif;
   color: black;
   font-weight: 200;
@@ -365,5 +365,8 @@ table
   }
   .project a{
     font-size: 2.5vw;
+  }
+  .projectcontent h6{
+    font-weight: 400;
   }
 }
