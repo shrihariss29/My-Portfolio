@@ -348,4 +348,10 @@ table
     height: 5%;
     font-size: 2vw;
   }
+  .contact h3{
+    font-size: 4vw;
+  }
+  .contact a{
+    font-size: 3vw;
+  }
 }
