@@ -9,12 +9,12 @@ function Projects() {
             Comparison of Machine Learning, Deep Learning and Time series models
           </h2>
           <h6>
-            Supply and demand drive the economy, and India’s high demand
-            requires strong statistical methods for long-term success. Our
-            research analyzed a chemical factory’s sales using the SARIMAX
-            model, which outperformed machine learning models. Real-time data
-            collection, feature selection, and data exploration were key in
-            achieving accurate predictions.
+            Supply and demand are crucial to the economy, and India’s high
+            demand necessitates robust statistical methods for sustainable
+            growth. Our research on a chemical factory’s sales employed the
+            SARIMAX model, outperforming machine learning models. Key factors
+            included real-time data collection, feature selection, and data
+            exploration.
           </h6>
         </div>
       </div>
@@ -58,19 +58,25 @@ function Projects() {
         <div className="projectcontent">
           <h2>Assessment of the probability of pursuing higher education.</h2>
           <h6>
-            I developed a Python project that simulates student profiles based
-            on demographics, academic metrics, and socioeconomic factors. Using
+            I created a Python project simulating student profiles based on
+            demographics, academic metrics, and socioeconomic factors. Utilizing
             libraries like Pandas, NumPy, Seaborn, and Matplotlib, I analyzed
-            the data to gain insights into educational trajectories,
-            particularly focusing on the likelihood of pursuing higher studies
-            such as master’s degrees. This provided valuable data-driven
-            conclusions.
+            the data to uncover insights into educational trajectories,
+            particularly the likelihood of pursuing higher studies like master’s
+            degrees.
           </h6>
         </div>
       </div>
       <h4>
-      Several other projects that I have worked on :  {" "}
-        <a href="https://github.com/shrihariss29" target="_blank" rel="noreferrer" className="btn btn-primary">Github</a>
+        Several other projects that I have worked on :{" "}
+        <a
+          href="https://github.com/shrihariss29"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-primary"
+        >
+          Github
+        </a>
       </h4>
     </div>
   );
