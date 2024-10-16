@@ -9,12 +9,11 @@ function Projects() {
             Comparison of Machine Learning, Deep Learning and Time series models
           </h2>
           <h6>
-            Supply and demand are crucial to the economy, and India’s high
-            demand necessitates robust statistical methods for sustainable
-            growth. Our research on a chemical factory’s sales employed the
-            SARIMAX model, outperforming machine learning models. Key factors
-            included real-time data collection, feature selection, and data
-            exploration.
+            Supply and demand are essential to the economy, and India's high
+            demand requires strong statistical methods for sustainable growth.
+            Our research utilized the SARIMAX model for a chemical factory's
+            sales, outperforming machine learning models through effective data
+            collection and analysis.
           </h6>
         </div>
       </div>
@@ -28,12 +27,11 @@ function Projects() {
             - a real time event managing website
           </h2>
           <h6>
-            Vinterbash is a dynamic web app developed using JavaScript, designed
-            to streamline real-time event management. It simplifies event
-            registration, tracks leaderboards, and enhances the overall
-            experience of organizing online events. With a user-friendly
-            interface, Vinterbash boosts efficiency and ensures seamless
-            coordination for participants and organizers alike.
+            Vinterbash is a dynamic web app created with JavaScript for
+            real-time event management. It streamlines event registration,
+            tracks leaderboards, and enhances the organizing experience. With a
+            user-friendly interface, it boosts efficiency and ensures seamless
+            coordination for all users.
           </h6>
         </div>
       </div>
@@ -44,12 +42,11 @@ function Projects() {
             Credit card fraud detection using machine learning and deep learning
           </h2>
           <h6>
-            In this project, I implemented several machine learning algorithms
-            alongside a convolutional neural network (CNN) on the
-            'creditcard.csv' dataset. The results demonstrated that the CNN
-            significantly outperformed the machine learning models in terms of
-            accuracy, showcasing its superior efficacy for this dataset compared
-            to conventional algorithms.
+            In this project, I applied various machine learning algorithms and a
+            convolutional neural network (CNN) to the 'creditcard.csv' dataset.
+            The results showed that the CNN significantly outperformed
+            traditional models in accuracy, highlighting its superior
+            effectiveness for this dataset.
           </h6>
         </div>
       </div>
@@ -58,12 +55,11 @@ function Projects() {
         <div className="projectcontent">
           <h2>Assessment of the probability of pursuing higher education.</h2>
           <h6>
-            I created a Python project simulating student profiles based on
-            demographics, academic metrics, and socioeconomic factors. Utilizing
-            libraries like Pandas, NumPy, Seaborn, and Matplotlib, I analyzed
-            the data to uncover insights into educational trajectories,
-            particularly the likelihood of pursuing higher studies like master’s
-            degrees.
+            I developed a Python project that simulates student profiles using
+            demographics, academic metrics, and socioeconomic factors. By
+            employing libraries like Pandas, NumPy, Seaborn, and Matplotlib, I
+            analyzed the data to reveal insights into educational paths and
+            pursuing higher studies.
           </h6>
         </div>
       </div>
