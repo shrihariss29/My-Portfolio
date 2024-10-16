@@ -1,0 +1,350 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+}
+#navele0 {
+  color: black;
+  font-size: 2vw;
+  font-family: "Protest Strike", sans-serif;
+}
+#navele1,
+#navele2,
+#navele3 {
+  color: black;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+.bg-body-tertiary {
+  background-color: #dddd;
+  margin-left: 9%;
+  margin-right: 9%;
+  border-radius: 20px;
+  margin-top: 2%;
+  width: 81%;
+}
+h1 {
+  margin-top: 1%;
+  color: white;
+}
+.hello {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  margin-left: 10%;
+}
+.homeflex {
+  display: flex;
+  margin-top: 18%;
+  width: 20%;
+  margin-left: 20%;
+}
+.homeflex h1 {
+  font-size: 4vw;
+  font-weight: 600;
+}
+#english {
+  animation: fade 1s ease-in forwards;
+}
+#tamil {
+  font-family: "Baloo Thambi 2", system-ui;
+  animation: fade 1.5s ease-in forwards;
+}
+#hindi {
+  animation: fade 2s ease-in forwards;
+}
+.hi {
+  animation: fade 2.5s ease-in forwards;
+  font-family: "Titillium Web", sans-serif;
+}
+.myname {
+  font-family: "Sofia", cursive;
+  font-size: 12vw;
+  animation: fade 3s ease-in forwards;
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.about h1
+{
+  margin-left: 10%;
+  margin-top: 7%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  text-decoration:underline;
+  animation: fade 3.5s ease-in forwards;
+}
+table
+{
+  margin-left: 12%;
+  color: white;
+  font-size: 2vw;
+  animation: fade 4s ease-in forwards;
+  margin-top: 2%;
+}
+.table-heading, .table-content{
+  font-family: "Titillium Web", sans-serif;
+}
+.table-heading th{
+  padding: 1%;
+  text-align: center;
+  width: 26vw;
+}
+.table-content td{
+  padding: 1%;
+  text-align: center;
+}
+.about p{
+  color: white;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  text-align: justify;
+  font-size: 1.5vw;
+  animation: fade 4.25s ease-in forwards;
+}
+.clubcard img{
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+}
+.clubcard{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  background-color: #dddd;
+  padding: 2%;
+  border-radius: 10px;
+  transition: transform 1000ms;
+}
+.clubcard:hover, .projectcard:hover, .project h4:hover, .contact:hover{
+  transform: scale(0.95);
+}
+.clubcontent h2{
+  margin-left: 5%;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vw;
+}
+.clubcontent h6{
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 1.5vw;
+  font-family: "Kanit", sans-serif;
+  color: black;
+  font-weight: 200;
+}
+.carousel {
+  margin-top: 4%;
+  margin-left: 17%;
+  margin-right: 25%;
+  width: 1100px;
+  height: 600px;
+  height: auto;
+  background-color: black;
+  outline: burlywood;
+  outline-style: groove;
+  outline-width: 2dvh;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.carousel img {
+  width: 1100px;
+  height: 600px;
+}
+.project h1
+{
+  margin-left: 10%;
+  margin-top: 7%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  text-decoration:underline;
+}
+.projectcard{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #dddd;
+  padding: 2%;
+  border-radius: 10px;
+  transition: transform 1000ms;
+}
+.projectcontent h2{
+  margin-left: 5%;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2vw;
+}
+.projectcontent h6{
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 1.5vw;
+  font-family: "Kanit", sans-serif;
+  color: black;
+  font-weight: 200;
+}
+.projectcard img{
+  width: 30%;
+  height: 30%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+.project h4{
+  background-color: #dddd;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
+  border-radius: 5px;
+  transition: transform 1000ms;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+}
+.btn{
+  width: 10%;
+  height: 10%;
+  font-size: 1.5vw;
+}
+.contact{
+  background-color: #dddd;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  transition: transform 1000ms;
+}
+.contact a{
+  font-family: "Kanit", sans-serif;
+  color: black;
+  margin-top: 2%;
+  font-size: 1.5vw;
+  margin-left: 2%;
+}
+.contact h3{
+  margin-left: 2%;
+  margin-top: 1%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  text-decoration:underline;
+}
+@keyframes quoteload
+{
+    0%{
+     transform: translateY(-10%);
+    }
+    100%
+    {
+     transform: translateY(1%);
+    }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 1100px) {
+  #navele0,
+  #navele1,
+  #navele2,
+  #navele3 {
+    font-size: 5vw;
+  }
+  .bg-body-tertiary {
+    margin-top: 5%;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeflex {
+    margin-top: 25%;
+    margin-left: 10%;
+  }
+  .homeflex h1 {
+    font-size: 7vw;
+  }
+  .hi {
+    font-size: 4vw;
+    margin-left: 10%;
+  }
+  .myname {
+    margin-left: 15%;
+    font-size: 21vw;
+  }
+  .homeflex {
+    flex-direction: column;
+  }
+  #tamil {
+    margin-left: 100%;
+  }
+  #hindi {
+    margin-left: 300%;
+  }
+  .about h1{
+    font-size: 6vw;
+  }
+  table{
+    font-size: 3vw;
+  }
+  .table-heading th{
+    padding: 1%;
+    width: 27vw;
+  }
+  .table-content td{
+    padding: 1%;
+  }
+  .about p{
+    font-size: 3vw;
+  }
+  .clubcard img{
+    width: 25%;
+    height: 25%;
+  }
+  .clubcontent h2{
+    font-size: 5vw;
+    margin-top: 2%;
+  }
+  .clubcontent h6{
+    margin-top: -2%;
+    font-weight: 400;
+  }
+  .carousel{
+    margin-top: 5%;
+    outline-width: 0.75dvh;
+    height: 42vw;
+    width: 77vw;
+    margin-left: 12vw;
+  }
+  .carousel img {
+    height: 42vw;
+    width: 77vw;
+  }
+  .project h4{
+    font-size: 3vw;
+  }
+  .btn{
+    width: 20%;
+    height: 5%;
+    font-size: 2vw;
+  }
+}
