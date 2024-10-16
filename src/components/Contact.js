@@ -7,7 +7,7 @@ function Contact() {
     const isMobile = () => /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     
     if (isMobile()) {
-      setMailHref('mailto:vinterbash2024@gmail.com?');
+      setMailHref('mailto:shrihariss29@gmail.com?');
     } else {
       setMailHref('https://mail.google.com/mail/?view=cm&fs=1&to=shrihariss29@gmail.com');
     }
@@ -20,7 +20,7 @@ function Contact() {
         Mail
       </a> 
       <a href="https://github.com/shrihariss29" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="www.linkedin.com/in/shrihari-sriram-364559223" target="_blank" rel="noreferrer">Linkedin</a>
+      <a href="https://www.linkedin.com/in/shrihari-sriram-364559223/" target="_blank" rel="noreferrer">Linkedin</a>
       <a href="https://www.instagram.com/shrihari.29/" target="_blank" rel="noreferrer">Instagram (temporarily disabled right now) </a>
     </div>
   );
