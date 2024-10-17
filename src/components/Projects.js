@@ -6,7 +6,7 @@ function Projects() {
         <img src={require("../assets/Mldlpic.jpg")} alt="ML Pic" />
         <div className="projectcontent">
           <h2>
-            Comparison of Machine Learning, Deep Learning and Time series models
+            Comparison of ML, DL & Time series models
           </h2>
           <h6>
             Supply and demand are essential to the economy, and India's high
@@ -36,10 +36,10 @@ function Projects() {
         </div>
       </div>
       <div className="projectcard">
-        <img src={require("../assets/decisiontree.jpg")} alt="DT Pic" />
+        <img src={require("../assets/fintech.jpg")} alt="DT Pic" />
         <div className="projectcontent">
           <h2>
-            Credit card fraud detection using machine learning and deep learning
+            Credit card fraud detection using ML and DL
           </h2>
           <h6>
             In this project, I applied various machine learning algorithms and a
