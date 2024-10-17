@@ -1,7 +1,7 @@
 function Projects() {
   return (
     <div className="project">
-      <h1>A few projects driven by enthusiasm:</h1>
+      <h1>Projects driven by enthusiasm:</h1>
       <div className="projectcard">
         <img src={require("../assets/Mldlpic.jpg")} alt="ML Pic" />
         <div className="projectcontent">
@@ -70,6 +70,7 @@ function Projects() {
           target="_blank"
           rel="noreferrer"
           className="btn btn-primary"
+          id="gitbutton"
         >
           Github
         </a>
