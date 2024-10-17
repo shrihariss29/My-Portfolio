@@ -107,9 +107,10 @@ table
   animation: fade 4.25s ease-in forwards;
 }
 .clubcard img{
-  width: 20%;
-  height: 20%;
+  width: 40%;
+  height: 40%;
   border-radius: 10px;
+  margin-top: 1%;
 }
 .clubcard{
   color: white;
@@ -194,10 +195,10 @@ table
   font-weight: 200;
 }
 .projectcard img{
-  width: 30%;
-  height: 30%;
-  margin-top: 1%;
+  width: 40%;
+  height: 40%;
   border-radius: 10px;
+  margin-top: 1%;
 }
 .project h4{
   background-color: #dddd;
@@ -322,18 +323,23 @@ table
   .about p{
     font-size: 3vw;
   }
+  .clubcard{
+    flex-direction: column;
+  }
   .clubcard img{
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: 100%;
   }
   .clubcontent h2{
-    font-size: 5vw;
+    font-size: 6vw;
+    margin-left: 2%;
     margin-top: 2%;
   }
   .clubcontent h6{
     margin-top: -2%;
-    font-weight: 400;
-    font-size: 1.75vw;
+    font-weight: 300;
+    margin-left: 2%;
+    font-size: 3vw;
   }
   .carousel{
     margin-top: 5%;
@@ -348,6 +354,7 @@ table
   }
   .projectcontent h6{
     font-size: 1.8vw;
+    font-weight: 300;
   }
   .project h4{
     font-size: 3vw;
@@ -365,8 +372,5 @@ table
   }
   .project a{
     font-size: 2.5vw;
-  }
-  .projectcontent h6{
-    font-weight: 400;
   }
 }
