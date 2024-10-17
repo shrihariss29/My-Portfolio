@@ -387,9 +387,9 @@ table
     font-size: 4.5vw;
   }
   #gitbutton{
-    width: 12%;
+    width: 15%;
     height: 15%;
-    font-size: 2vw;
+    font-size: 4vw;
     margin-left: 1%;
   }
 }
