@@ -18,7 +18,7 @@ body {
   font-size: 1.5vw;
 }
 .bg-body-tertiary {
-  background-color: #dddd;
+  background-color: wheat;
   margin-left: 9%;
   margin-right: 9%;
   border-radius: 20px;
@@ -387,7 +387,7 @@ table
     font-size: 4.5vw;
   }
   #gitbutton{
-    width: 15%;
+    width: 12%;
     height: 15%;
     font-size: 3vw;
     margin-left: 1%;
